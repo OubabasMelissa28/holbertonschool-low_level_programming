@@ -1,7 +1,18 @@
+/*
+* File: 4-puts.c
+*/
+
 #include <stdio.h>
-#include <stdlib.h>
-int main()
+
+/**
+ * main - prints "programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle \n");
-	return 0;
+	puts("\"programming is like building a multilingual");
+
+	return (0);
 }	
